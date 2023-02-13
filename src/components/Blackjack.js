@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
 
 export const Blackjack = () => {
   const [step, setStep] = useState(0);
