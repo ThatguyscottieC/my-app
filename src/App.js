@@ -15,10 +15,11 @@ function App() {
       <div className="projects">
         <h1>Projects</h1>
       </div>
-      <GardenC />
+      <Journeyal />
       <Blackjack />
       <MyTunes />
-      <Journeyal />
+      <GardenC />
+
       {/* <Middle /> */}
       {/* <Bottom /> */}
     </div>
