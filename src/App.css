@@ -174,3 +174,19 @@ body {
     border-radius: 3%;
     margin-left: 30%;
 }
+
+/* /Header */
+
+.header-container {
+    text-align: center;
+}
+
+a :hover{
+    color:#92CFDD
+}
+
+
+svg{
+width: 5%
+
+}

@@ -5,16 +5,19 @@ import { GardenC } from "./components/GardenC";
 import { Blackjack } from "./components/Blackjack";
 import { MyTunes } from "./components/MyTunes";
 import { Journeyal } from "./components/Journeyal";
+import { Header } from "./components/Header";
 // import { Middle } from "./components/Middle";
 // import { Bottom } from "./components/Bottom";
 
 function App() {
   return (
     <div className="main">
+      <Header />
       <Top />
       <div className="projects">
         <h1>Projects</h1>
       </div>
+
       <Journeyal />
       <Blackjack />
       <MyTunes />
