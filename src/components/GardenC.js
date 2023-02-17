@@ -41,20 +41,10 @@ export const GardenC = () => {
         <h3> Project: Garden Website</h3>
         <h4> Front Developer</h4>
         <p>Description: My first website testing the basics of HTML and CSS.</p>
-        <p> Skills: HTML5, CSS, Git</p>
+        <p className="m-5"> Skills: HTML5, CSS, Git</p>
       </div>
 
-      <div className="Steps">
-        {renderStep(step)}
-        <div className="carousel">
-          <button className="carousel-button prev" onClick={prev}>
-            ⇠
-          </button>
-          <button className="carousel-button next" onClick={next}>
-            ⇢
-          </button>
-        </div>
-      </div>
+      <div onClick={next}>{renderStep(step)}</div>
     </div>
   );
 };

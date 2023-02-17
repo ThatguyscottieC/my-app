@@ -54,20 +54,13 @@ export const MyTunes = () => {
           the album cover and the album cover background as well. I believe that
           I captured the vision I was going for with this project.
         </p>
-        <p> Skills: HTML5, , Javascript, JSON, API, CSS, Git</p>
+        <p className=" m-5">
+          {" "}
+          Skills: HTML5, , Javascript, JSON, API, CSS, Git
+        </p>
       </div>
 
-      <div className="Steps">
-        {renderStep(step)}
-        <div className="carousel">
-          <button className="carousel-button prev" onClick={prev}>
-            ⇠
-          </button>
-          <button className="carousel-button next" onClick={next}>
-            ⇢
-          </button>
-        </div>
-      </div>
+      <div onClick={next}>{renderStep(step)}</div>
     </div>
   );
 };

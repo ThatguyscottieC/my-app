@@ -1,17 +1,20 @@
 /* this is all the css for TOP */
-*{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* *{
     font-family: 'Public Sans', sans-serif;
     color: aliceblue;    
-}
-body {
+} */
+/* body {
     background: linear-gradient(-45deg,
         #7F8C8D 0%, #000000 100%);
         background-size: 600% 600%;
         animation: gradient 30s ease infinite;
         
-}
+} */
 
-@keyframes gradient {
+/* @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -21,10 +24,9 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
+} */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
 
 .Headshot{
     
@@ -38,10 +40,13 @@ body {
     border-radius: 20%;
 }
 
+
+
 .myname{
     align-items: center;
     display: flex;
-    font-size:xx-large;
+    font-size: 500%;
+    font-style: bold;
     text-transform: uppercase;
     background-image: linear-gradient(
         -225deg, #EEA474 0%,#92CFDD 29%,#E4B08B 64%,#A5AEB9 100%);
@@ -78,7 +83,7 @@ body {
     margin-left: 40%;
     font-size: large;
     width: 50%;
-    padding: 45px;
+    padding: 40px;
 }
 
 /*middle section css */
@@ -89,7 +94,7 @@ body {
 .projects{   
     align-items: center;
     display: flex;
-    font-size:xx-large;
+    font-size:  500%;
     text-transform: uppercase;
     background-image: linear-gradient(
         -225deg, #EEA474 0%,#92CFDD 29%,#E4B08B 64%,#A5AEB9 100%);
@@ -123,27 +128,9 @@ body {
     
 }
 
-.carousel-button {
-    border: none;
-    position: absolute;
-    color: white;
-    background: none;
-    text-align: center;
-    font-size: 4rem;
-    z-index: 2;
-    
-    cursor: pointer;
-    border-radius: .25rem;
-    padding: 0 .5rem;
-    border-radius: 40%;
-    background-color: rgba(0, 0, 0, .1);
-    top: 50%;
-    -ms-transform: translateY(-500%);
-    transform: translateY(-500%);
-    
-}
 
-.carousel-button:hover,
+
+/* .carousel-button:hover,
 .carousel-button:focus{
     color: white;
     background-color: rgba(0, 0, 0, .2);
@@ -151,18 +138,18 @@ body {
 
 .carousel-button:focus{
     outline: 1px solid black
-}
-.carousel-button.prev{
+} */
+/* .carousel-button.prev{
     left: -4rem;
 }
 .carousel-button.next{
     right: -4rem;
-}
+} */
 
-.carousel {
+/* .carousel {
     width: 100%;
     position: relative;
-}
+} */
 
 .description {
     margin: 5%;
@@ -185,8 +172,9 @@ a :hover{
     color:#92CFDD
 }
 
-
-svg{
-width: 5%
-
+.dXOYdB {
+    width: 5%;
+}
+svg {
+    color:#EEA474
 }

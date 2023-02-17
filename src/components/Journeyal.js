@@ -59,19 +59,13 @@ export const Journeyal = () => {
           events in your everyday life to have and comeback to, with the ability
           to save pictures and add your own customized tags.
         </p>
-        <p> Skills: Django, Python, Trello, Postgres, SQL, Teamwork, Git</p>
+        <div className="m-5">
+          <p> Skills: Django, Python, Trello, Postgres, SQL, Teamwork, Git</p>
+        </div>
       </div>
 
-      <div className="Steps">
-        {renderStep(step)}
-        <div className="carousel">
-          <button className="carousel-button prev" onClick={prev}>
-            ⇠
-          </button>
-          <button className="carousel-button next" onClick={next}>
-            ⇢
-          </button>
-        </div>
+      <div className="m-10">
+        <div onClick={next}>{renderStep(step)}</div>
       </div>
     </div>
   );

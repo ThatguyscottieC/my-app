@@ -48,16 +48,8 @@ export const Blackjack = () => {
       <div className="bottom">
         <p> Skills: Python, Git</p>
       </div>
-      <div className="Steps">
-        {renderStep(step)}
-        <div className="carousel">
-          <button className="carousel-button prev" onClick={prev}>
-            ⇠
-          </button>
-          <button className="carousel-button next" onClick={next}>
-            ⇢
-          </button>
-        </div>
+      <div className=" m-5">
+        <div onClick={next}>{renderStep(step)}</div>
       </div>
     </div>
   );
