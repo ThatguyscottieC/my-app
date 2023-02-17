@@ -31,14 +31,6 @@ export const MyTunes = () => {
       setStep(step + 1);
     }
   };
-  const prev = (event) => {
-    event.preventDefault();
-    if (step <= 0) {
-      setStep(3);
-    } else {
-      setStep(step - 1);
-    }
-  };
   return (
     <div className="description">
       <div className="no-margin">

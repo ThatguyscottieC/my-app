@@ -23,14 +23,6 @@ export const Blackjack = () => {
       setStep(step + 1);
     }
   };
-  const prev = (event) => {
-    event.preventDefault();
-    if (step <= 0) {
-      setStep(1);
-    } else {
-      setStep(step - 1);
-    }
-  };
   return (
     <div className="description">
       <div className="no-margin">
