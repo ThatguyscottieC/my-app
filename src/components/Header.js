@@ -3,12 +3,12 @@ import { Github } from "@styled-icons/bootstrap/Github";
 
 export const Header = () => {
   return (
-    <div className="header-container m-8">
+    <div className=" container mx-auto">
       <a href="https://www.linkedin.com/in/scottie-chambers/">
-        <Linkedin className="linkedin m-2" />
+        <Linkedin className="linkedin w-10" />
       </a>
       <a href="https://github.com/ThatguyscottieC">
-        <Github className="Github m-2" />
+        <Github className="Github w-10 m-3" />
       </a>
     </div>
   );
